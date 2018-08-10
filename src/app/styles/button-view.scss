@@ -1,0 +1,20 @@
+.main-buttons{
+    min-height: 50px;
+    max-height: 100px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    .button{
+        display: flex;
+        padding: 5px;
+        flex-flow: row;
+        img{
+            width: 36px;
+            height: 36px;
+            padding: 5px;
+            border: 2px solid black;
+            border-radius: 4px;
+        }
+    }
+}
+

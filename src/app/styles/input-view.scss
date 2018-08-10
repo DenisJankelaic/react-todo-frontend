@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    font-size: 24px;
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+input:focus {
+    outline-width: 0;cursor: url(http://www.rw-designer.com/cursor-view/59022.png) 4 12, auto;
+}

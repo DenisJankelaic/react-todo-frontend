@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.task {
+    min-width: 250px;
+    width: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    &:hover {
+        background-color: #bdffff;
+        border-radius: 5px;
+    }
+    .task-text {
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .task-button {
+        display: flex;
+        padding: 10px;
+        .button {
+            &:hover {
+                background-color: skyblue;
+        border-radius: 4px;
+
+        width: 36px;
+        height: 36px;
+            }
+        }
+    }
+    img {
+        width: 36px;
+        height: 36px;
+        padding: 5px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+}
